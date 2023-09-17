@@ -1,3 +1,6 @@
+# Overview
+Named Entity Recognition (NER) using deep learning models using Bidirectional LSTM models equipped with CNN capabilities for getting character level features apart from embeddings feature vectors.
+
 ## How to run
 To Run Prediction and create out files (This will produce the dev1.out, dev2.out, test1.out, test2.out, dev3.out and pred files)
 >python run.py --predict
@@ -5,7 +8,7 @@ To Run Training and create model files (This will produce blstm1.pt and blstm2.p
 >python run.py --train
 
 
-# Assumptions
+## Assumptions
 - cuda torch is required for loading and training the models.
 - I am reading the unzipped globe.6B.100d.txt file for Task 2 which should be present in the same directory.
 - The prediction command produces these files:
